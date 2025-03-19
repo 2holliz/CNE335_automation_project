@@ -1,16 +1,13 @@
 # This is the template code for the CNE335 Final Project
-# Mustafa Alghuraibawi
-# CNE 335 Winter
-from Server import Server
+# Justin Ellis
+# CNE 335 Fall
 
 def print_program_info():
     # TODO - Change your name
-    print("Server Automator v0.1 by Mustafa")
+    print("Server Automator v0.1 by Your Name")
 
 # This is the entry point to our program
 if __name__ == '__main__':
     print_program_info()
     # TODO - Create a Server object
-    EC2server = Server('34.211.5.59')
     # TODO - Call Ping method and print the results
-    print(EC2server.ping())
